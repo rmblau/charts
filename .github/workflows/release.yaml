@@ -167,7 +167,6 @@ jobs:
 
       - name: Move Helm index to docs
         run: mv helm-index/* site
-s
       - name: Upload release artifact
         uses: actions/upload-pages-artifact@v3
         with:
