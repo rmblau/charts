@@ -18,6 +18,8 @@ image:
 env:
   # -- Set the container timezone
   TZ: UTC
+  PAPERLESS_GMAIL_OAUTH_CLIENT_ID: changeme
+  PAPERLESS_GMAIL_OAUTH_CLIENT_SECRET: changeme
   # PAPERLESS_SECRET_KEY: ""
 
 service:
