@@ -3,7 +3,8 @@
 env:
   PAPERLESS_TIME_ZONE: {{ .Values.env.TZ }}
   PAPERLESS_PORT: {{ quote .Values.service.main.ports.http.port }}
-
+  PAPERLESS_GMAIL_OAUTH_CLIENT_ID: {{ quote .Values.env.PAPERLESS_GMAIL_OAUTH_CLIENT_ID }} 
+  PAPERLESS_GMAIL_OAUTH_CLIENT_SECRET: {{ quote .Values.env.PAPERLESS_GMAIL_OAUTH_CLIENT_SECRET}}
   {{- with .Values.ingress.main }}
   {{- if and .enabled .hosts }}
   PAPERLESS_URL: http{{ if .tls }}s{{ end }}://{{ (first .hosts).host }}
