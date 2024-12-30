@@ -19390,6 +19390,30 @@ entries:
   leantime:
   - apiVersion: v2
     appVersion: 3.3.3
+    created: "2024-12-30T03:40:38.174885958Z"
+    description: Lean project management system for innovators
+    digest: e8546009542a0267918d562a470be5f62fb261fdb0a3700197189c9139a8d594
+    home: https://leantime.io/
+    icon: https://raw.githubusercontent.com/Leantime/leantime/master/public/images/icon-192.png
+    keywords:
+    - project management
+    - task management
+    - agile
+    - kanban
+    - lean
+    - scrum
+    maintainers:
+    - email: silvio@gissilabs.com
+      name: Silvio Gissi
+    name: leantime
+    sources:
+    - https://github.com/Leantime/leantime
+    type: application
+    urls:
+    - https://github.com/rmblau/charts/releases/download/leantime-1.2.2/leantime-1.2.2.tgz
+    version: 1.2.2
+  - apiVersion: v2
+    appVersion: 3.3.3
     created: "2024-12-30T00:55:43.004182489Z"
     description: Lean project management system for innovators
     digest: a8ba383b69064216607ca5d07a1917c2aba5a4ad8c689e9aabdcaf99f2507fef
@@ -41072,4 +41096,4 @@ entries:
     urls:
     - https://github.com/gabe565/charts/releases/download/vaultwarden-0.1.0/vaultwarden-0.1.0.tgz
     version: 0.1.0
-generated: "2024-12-30T00:55:43.007770676Z"
+generated: "2024-12-30T03:40:38.176476127Z"
