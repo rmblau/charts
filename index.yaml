@@ -19387,6 +19387,31 @@ entries:
     urls:
     - https://github.com/gabe565/charts/releases/download/keydb-0.0.1/keydb-0.0.1.tgz
     version: 0.0.1
+  leantime:
+  - apiVersion: v2
+    appVersion: 3.3.3
+    created: "2024-12-30T00:55:43.004182489Z"
+    description: Lean project management system for innovators
+    digest: a8ba383b69064216607ca5d07a1917c2aba5a4ad8c689e9aabdcaf99f2507fef
+    home: https://leantime.io/
+    icon: https://raw.githubusercontent.com/Leantime/leantime/master/public/images/icon-192.png
+    keywords:
+    - project management
+    - task management
+    - agile
+    - kanban
+    - lean
+    - scrum
+    maintainers:
+    - email: silvio@gissilabs.com
+      name: Silvio Gissi
+    name: leantime
+    sources:
+    - https://github.com/Leantime/leantime
+    type: application
+    urls:
+    - https://github.com/rmblau/charts/releases/download/leantime-1.2.1/leantime-1.2.1.tgz
+    version: 1.2.1
   limo:
   - annotations:
       artifacthub.io/changes: |-
@@ -41047,4 +41072,4 @@ entries:
     urls:
     - https://github.com/gabe565/charts/releases/download/vaultwarden-0.1.0/vaultwarden-0.1.0.tgz
     version: 0.1.0
-generated: "2024-12-11T06:27:31.122305663Z"
+generated: "2024-12-30T00:55:43.007770676Z"
