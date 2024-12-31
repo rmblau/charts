@@ -2,7 +2,7 @@ apiVersion: v2
 name: leantime
 description: Lean project management system for innovators
 type: application
-version: 1.2.2
+version: 1.2.3
 appVersion: 3.3.3
 keywords:
   - project management
@@ -15,6 +15,6 @@ home: https://leantime.io/
 sources:
   - https://github.com/Leantime/leantime
 maintainers:
-  - name: Silvio Gissi
-    email: silvio@gissilabs.com
+  - name: Matthew Blau
+    email: matthew@rmblau.com
 icon: https://raw.githubusercontent.com/Leantime/leantime/master/public/images/icon-192.png
