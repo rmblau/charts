@@ -19390,6 +19390,30 @@ entries:
   leantime:
   - apiVersion: v2
     appVersion: 3.3.3
+    created: "2024-12-31T01:47:36.36029735Z"
+    description: Lean project management system for innovators
+    digest: b295cce0a699df5339392989704166149c0f9de3a6f677e74fd81282dcb47838
+    home: https://leantime.io/
+    icon: https://raw.githubusercontent.com/Leantime/leantime/master/public/images/icon-192.png
+    keywords:
+    - project management
+    - task management
+    - agile
+    - kanban
+    - lean
+    - scrum
+    maintainers:
+    - email: matthew@rmblau.com
+      name: Matthew Blau
+    name: leantime
+    sources:
+    - https://github.com/Leantime/leantime
+    type: application
+    urls:
+    - https://github.com/rmblau/charts/releases/download/leantime-1.2.3/leantime-1.2.3.tgz
+    version: 1.2.3
+  - apiVersion: v2
+    appVersion: 3.3.3
     created: "2024-12-30T03:40:38.174885958Z"
     description: Lean project management system for innovators
     digest: e8546009542a0267918d562a470be5f62fb261fdb0a3700197189c9139a8d594
@@ -41096,4 +41120,4 @@ entries:
     urls:
     - https://github.com/gabe565/charts/releases/download/vaultwarden-0.1.0/vaultwarden-0.1.0.tgz
     version: 0.1.0
-generated: "2024-12-30T03:40:38.176476127Z"
+generated: "2024-12-31T01:47:36.361881219Z"
