@@ -6,7 +6,7 @@ metadata:
   labels:
     {{- include "homechart.labels" . | nindent 4 }}
 spec:
-  replicas: 2
+  replicas: {{- with .Values.homechart.replicas }}
   selector:
     matchLabels:
       app: homechart
@@ -42,7 +42,7 @@ spec:
               name: postgresql
           volumeMounts:
             - name: postgresql
-              mountPath: /var/lib/postgresql/data
+              mountPath: /var/lib/postgresql/data/homechart
       {{- with .Values.postgresql.affinity }}
       affinity:
         {{- toYaml . | nindent 8 }}
