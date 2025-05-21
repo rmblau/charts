@@ -18405,6 +18405,24 @@ entries:
     urls:
     - https://github.com/gabe565/charts/releases/download/home-assistant-0.0.1/home-assistant-0.0.1.tgz
     version: 0.0.1
+  homechart:
+  - apiVersion: v2
+    created: "2025-05-21T00:06:54.111008819Z"
+    description: Run your household with one simple app. Built by families, for families.
+    digest: bbe5c82a6d5cd43ecab8ba8e4c25479d6ed494e5d9a87236d090db326e06d279
+    home: https://homechart.app
+    icon: https://homechart.app/homechart.png
+    keywords:
+    - home
+    - homechart
+    - productivity
+    - web
+    name: homechart
+    sources:
+    - https://github.com/candiddev/homechart
+    urls:
+    - https://github.com/rmblau/charts/releases/download/homechart-1.0.1/homechart-1.0.1.tgz
+    version: 1.0.1
   homer:
   - annotations:
       artifacthub.io/changes: |-
@@ -41120,4 +41138,4 @@ entries:
     urls:
     - https://github.com/gabe565/charts/releases/download/vaultwarden-0.1.0/vaultwarden-0.1.0.tgz
     version: 0.1.0
-generated: "2024-12-31T01:47:36.361881219Z"
+generated: "2025-05-21T00:06:54.112522943Z"
