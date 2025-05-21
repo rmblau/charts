@@ -18407,6 +18407,23 @@ entries:
     version: 0.0.1
   homechart:
   - apiVersion: v2
+    created: "2025-05-21T01:09:03.829177063Z"
+    description: Run your household with one simple app. Built by families, for families.
+    digest: 90b5ac77ac06ea4e83c957f7a4fa0da277872579b4507b9887bde7bc1f5799a4
+    home: https://homechart.app
+    icon: https://homechart.app/homechart.png
+    keywords:
+    - home
+    - homechart
+    - productivity
+    - web
+    name: homechart
+    sources:
+    - https://github.com/candiddev/homechart
+    urls:
+    - https://github.com/rmblau/charts/releases/download/homechart-1.0.3/homechart-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v2
     created: "2025-05-21T01:02:22.540377506Z"
     description: Run your household with one simple app. Built by families, for families.
     digest: 0e659ff60c73303a9928b69834299d00ed1f368417920a3ba7579a511e3ad172
@@ -41155,4 +41172,4 @@ entries:
     urls:
     - https://github.com/gabe565/charts/releases/download/vaultwarden-0.1.0/vaultwarden-0.1.0.tgz
     version: 0.1.0
-generated: "2025-05-21T01:02:22.542324059Z"
+generated: "2025-05-21T01:09:03.830885175Z"
