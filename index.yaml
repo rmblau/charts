@@ -19442,6 +19442,16 @@ entries:
   kitchenowl:
   - apiVersion: v2
     appVersion: v0.7.4
+    created: "2025-11-16T22:59:39.823663583Z"
+    description: A Helm chart for Kubernetes
+    digest: d527df59fc294bbf3c35b012a6881c06b8a8a57667df26fe732c5305ef100422
+    name: kitchenowl
+    type: application
+    urls:
+    - https://github.com/rmblau/charts/releases/download/kitchenowl-0.1.1/kitchenowl-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: v0.7.4
     created: "2025-11-16T20:54:12.339342307Z"
     description: A Helm chart for Kubernetes
     digest: 1171ced8e7afab92a3657ad56d7767884c39439b3a61e53502bcf8ab2794c49d
@@ -41183,4 +41193,4 @@ entries:
     urls:
     - https://github.com/gabe565/charts/releases/download/vaultwarden-0.1.0/vaultwarden-0.1.0.tgz
     version: 0.1.0
-generated: "2025-11-16T20:54:12.341065328Z"
+generated: "2025-11-16T22:59:39.825601613Z"
