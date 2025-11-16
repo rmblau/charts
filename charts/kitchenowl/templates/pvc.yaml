@@ -3,10 +3,12 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: {{ include "kitchenowl.fullname" . }}
+  labels:
+  {{ include "kitchenowl.labels" . | nindent 4 }}
 spec:
   accessModes:
-    - {{ .Values.persistance.accessModes }}
-  storageClassName: {{ .Values.persistance.storageClassName }}
+    - {{ .Values.persistence.accessModes }}
+  storageClassName: {{ .Values.persistence.storageClassName }}
   resources:
     requests:
-      storage: {{ .Values.persistance.size }}
+      storage: {{ .Values.persistence.size }}
