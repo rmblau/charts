@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: {{ include "kitchenowl.fullname"}}-pvc
+  name: {{ include "kitchenowl.fullname" . }}-pvc
 spec:
   accessModes:
     - {{ .Values.persistance.accessModes }}
