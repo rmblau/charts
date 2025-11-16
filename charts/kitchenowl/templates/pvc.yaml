@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: {{ include "kitchenowl.fullname" . | trim }}
+  name: {{ (include "kitchenowl.fullname" .) | trim }}
   labels:
     {{- include "kitchenowl.labels" . | nindent 4 }}
 spec:
