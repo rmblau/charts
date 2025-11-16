@@ -4,7 +4,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: {{ include "kitchenowl.fullname" . | trim }}
   labels:
-{{ include "kitchenowl.labels" . | nindent 4 }}
+    {{- include "kitchenowl.labels" . | nindent 4 }}
 spec:
   accessModes:
     - {{ .Values.persistence.accessModes }}
