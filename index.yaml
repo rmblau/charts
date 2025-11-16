@@ -19439,6 +19439,17 @@ entries:
     urls:
     - https://github.com/gabe565/charts/releases/download/keydb-0.0.1/keydb-0.0.1.tgz
     version: 0.0.1
+  kitchenowl:
+  - apiVersion: v2
+    appVersion: v0.7.4
+    created: "2025-11-16T20:54:12.339342307Z"
+    description: A Helm chart for Kubernetes
+    digest: 1171ced8e7afab92a3657ad56d7767884c39439b3a61e53502bcf8ab2794c49d
+    name: kitchenowl
+    type: application
+    urls:
+    - https://github.com/rmblau/charts/releases/download/kitchenowl-0.1.0/kitchenowl-0.1.0.tgz
+    version: 0.1.0
   leantime:
   - apiVersion: v2
     appVersion: 3.3.3
@@ -41172,4 +41183,4 @@ entries:
     urls:
     - https://github.com/gabe565/charts/releases/download/vaultwarden-0.1.0/vaultwarden-0.1.0.tgz
     version: 0.1.0
-generated: "2025-05-21T01:09:03.830885175Z"
+generated: "2025-11-16T20:54:12.341065328Z"
