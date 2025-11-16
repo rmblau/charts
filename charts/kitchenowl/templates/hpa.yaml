@@ -2,7 +2,7 @@
 apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata:
-  name: {{ include "kitchenowl.fullname" . }}
+  name: kitchenowl
   labels:
     {{- include "kitchenowl.labels" . | nindent 4 }}
 spec:

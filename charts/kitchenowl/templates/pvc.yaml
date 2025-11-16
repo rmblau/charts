@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: kitchenowl-pvc
+  name: kitchenowl
   labels:
     {{- include "kitchenowl.labels" . | nindent 4 }}
 spec:
