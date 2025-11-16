@@ -19,7 +19,7 @@ imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
 
-persistance:
+persistence:
   enabled: true
   storageClassName: ""
   accessModes: ReadWriteOnce
