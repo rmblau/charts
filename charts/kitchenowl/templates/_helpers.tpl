@@ -33,7 +33,7 @@ Create chart name and version as used by the chart label.
 {{/*
 Common labels
 */}}
-{{- define "kitchenowl.labels" -}}
+{{- define "kitchenowl.labels" }}
 helm.sh/chart: {{ include "kitchenowl.chart" . }}
 {{ include "kitchenowl.selectorLabels" . }}
 {{- if .Chart.AppVersion }}
